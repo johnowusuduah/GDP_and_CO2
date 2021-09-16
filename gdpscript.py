@@ -22,4 +22,7 @@ plt.scatter(
     x="GDP per capita (constant 2010 US$)",
     y="Mortality rate, infant (per 1,000 live births)",
 )
+plt.title("Mortality vs GDP")
+plt.xlabel("GDP")
+plt.ylabel("Mortality")
 plt.show()
