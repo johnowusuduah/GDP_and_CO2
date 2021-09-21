@@ -13,6 +13,7 @@ data1 = data.loc[
         "Mortality rate, infant (per 1,000 live births)",
         "GDP per capita (constant 2010 US$)",
         "Country Name",
+        "",
     ],
 ]
 
@@ -23,6 +24,7 @@ plt.scatter(
     y="Mortality rate, infant (per 1,000 live births)",
 )
 plt.title("Mortality vs GDP")
+plt.style.use("ggplot")
 plt.xlabel("GDP")
 plt.ylabel("Mortality")
 plt.show()
